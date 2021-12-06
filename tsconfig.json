@@ -17,10 +17,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@models/*": ["./src/models/*"],
-      "@config/*": ["./src/config/*"]
+      "@modules/*": [".modules/*"],
+      "@models/*": [".models/*"],
+      "@config/*": ["config/*"]
     }
   },
   "include": [

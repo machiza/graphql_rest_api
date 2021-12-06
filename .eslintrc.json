@@ -6,9 +6,11 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:import/typescript"
   ],
   "parser": "@typescript-eslint/parser",
+  "root": true,
   "parserOptions": {
     "ecmaVersion": 13,
     "sourceType": "module"
@@ -78,5 +80,5 @@
     "import/resolver": {
       "typescript": {}
     }
-  },
+  }
 }
